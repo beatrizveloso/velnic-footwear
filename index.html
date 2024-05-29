@@ -1,32 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icon-principal.svg">
-</head>
-<body>
-    <header>
-        <div class="logo">
-          <img src="img/icon-principal.svg" alt="">
-          <img src="img/velnic-icon.svg" alt="">
-        </div>
-    
-        <ul>
-          <a href="a"><li>Novidades</li></a>
-          <a href="a"><li>Coleções</li></a>
-          <a href="a"><li>Promoções</li></a>
-          <a href="a"><li>Categorias</li></a>
-        </ul>
 
-        <div class="icons-header">
-            <img src="img/lupa-icon.svg" alt="">
-            <img src="img/kart-icon.svg" alt="">
-            <img src="img/profile-icon.svg" alt="">
-        </div>
-      </header>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velnic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/icon-principal.svg">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/icon-principal.svg" alt="">
+      <img src="img/velnic-icon.svg" alt="">
+    </div>
+
+    <ul>
+      <a href="a">
+        <li>Novidades</li>
+      </a>
+      <a href="a">
+        <li>Coleções</li>
+      </a>
+      <a href="a">
+        <li>Promoções</li>
+      </a>
+      <a href="a">
+        <li>Categorias</li>
+      </a>
+    </ul>
+
+    <div class="icons-header">
+      <img src="img/lupa-icon.svg" alt="">
+      <img src="img/kart-icon.svg" alt="">
+      <img src="img/profile-icon.svg" alt="">
+    </div>
+  </header>
+
+  <article>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/carrossel one.png" style="width:100%" alt="Apresentação">
+        <div class="text">Velnic</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/carrossel two.png" style="width:100%" alt="Cupom 50% de desconto">
+        <div class="text">Velnic</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/carrossel three.png" style="width:100%" alt="Divulgação do Atendimento">
+        <div class="text">Velnic</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </article>
+
+  <article class="categorias">
+    <h1>Categorias</h1>
+    <picture class="align-imgs">
+      <img src="img/feminino.svg" alt="">
+      <img src="img/masculino.svg" alt="">
+      <img src="img/sapatilhas.svg" alt="">
+      <img src="img/infantil.svg" alt="">
+      <img src="img/saltos.svg" alt="">
+    </picture>
+  </article>
 </body>
+<script src="js/script.js"></script>
+
 </html>
