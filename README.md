@@ -1,2 +1,5 @@
 ![image](https://github.com/beatrizveloso/velnic-footwear/assets/156534028/b3ee467c-3928-4d9a-8016-11296dceea6c)
 ![image](https://github.com/beatrizveloso/velnic-footwear/assets/156534028/eb2708ce-e7b7-4e7f-824c-9de882ca8a7a)
+![image](https://github.com/beatrizveloso/velnic-footwear/assets/156534028/db2429e9-e248-4ec3-a34f-40b06af44793)
+![image](https://github.com/beatrizveloso/velnic-footwear/assets/156534028/c9915773-655c-4aeb-9bbc-2f31819aa52b)
+![image](https://github.com/beatrizveloso/velnic-footwear/assets/156534028/844610fd-bd05-4dff-b9ab-64987598fba1)
