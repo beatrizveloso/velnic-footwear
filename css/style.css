@@ -426,4 +426,23 @@ iframe {
     align-items: center;
     justify-content: space-between;
   }
+
+  .align-store {
+    margin-top: 330px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .text-store p{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    padding-top: 40px;
+    margin-left: 25px;
+  }
+
 }
