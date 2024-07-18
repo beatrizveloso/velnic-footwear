@@ -122,8 +122,14 @@ a:hover {
   align-items: center;
 }
 
+.align-sapato img {
+  width: 180px;
+  height: 140px;
+  margin-left: 35px;
+}
+
 .square-buy-two {
-  margin-top: 10px;
+  margin-top: 25px;
   background-color: #F4F2F2;
   height: 30px;
   width: 246px;

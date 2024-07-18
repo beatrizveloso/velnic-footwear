@@ -182,7 +182,7 @@ a:hover {
 }
 
 .align-buy{
-  height: 260px;
+  height: 320px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -207,8 +207,14 @@ a:hover {
   align-items: center;
 }
 
+.align-sapato img {
+  width: 180px;
+  height: 140px;
+  margin-left: 35px;
+}
+
 .square-buy-two {
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: #F4F2F2;
   height: 30px;
   width: 246px;
@@ -351,4 +357,92 @@ iframe {
   width: 100%;
   height: 40%;
   box-shadow: 0px 0px 0px 5px #b1b1df;
+}
+
+@media (max-width: 420px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    display: none;
+  }
+
+  .icons-header img {
+    display: none;
+  }
+
+  .categorias {
+    margin-top: 300px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .categorias h1 {
+    padding-top: 150px;
+  }
+  
+  .align-imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  
+  .align-imgs img {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feminino, .masculino, .saltos, .infantil, .sapatilhas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .align-buy{
+    height: 1000px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .align-store {
+    margin-top: 330px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .text-store p{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    padding-top: 40px;
+    margin-left: 25px;
+  }
+
 }
