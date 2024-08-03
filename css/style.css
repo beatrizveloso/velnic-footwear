@@ -397,7 +397,6 @@ iframe {
   }
   
   .align-imgs {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -435,7 +434,6 @@ iframe {
   }
 
   .text-store p{
-    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -443,6 +441,30 @@ iframe {
     width: 400px;
     padding-top: 40px;
     margin-left: 25px;
+  }
+
+  footer {
+    height: 400px;
+    margin-top: 50px;
+  }
+  
+  footer li {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .tel-footer p,
+  .whats-footer p,
+  .insta-footer p,
+  .local-footer p,
+  .carta-footer p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    padding-top: 14px;
+    font-weight: 500;
+    font-style: normal;
   }
 
 }
