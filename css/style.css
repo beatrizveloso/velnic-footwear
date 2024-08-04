@@ -467,4 +467,15 @@ iframe {
     font-style: normal;
   }
 
+  .location-footer img {
+    display: none;
+  }
+
+  .location-footer li, hr {
+    display: none;
+  }
+  
+  iframe {
+    display: none;
+  }
 }
