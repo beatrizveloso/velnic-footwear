@@ -458,13 +458,8 @@ iframe {
   .insta-footer p,
   .local-footer p,
   .carta-footer p {
-    font-family: "Fira Sans Condensed", sans-serif;
     font-size: 14px;
-    color: white;
     display: flex;
-    padding-top: 14px;
-    font-weight: 500;
-    font-style: normal;
   }
 
   .location-footer img {
